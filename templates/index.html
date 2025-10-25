@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Big Mart Sales Prediction</title>
+</head>
+<body>
+    <h2>Big Mart Sales Prediction</h2>
+    <form action="/predict" method="post">
+        <label>Item Weight:</label>
+        <input type="text" name="item_weight"><br><br>
+
+        <label>Item Visibility:</label>
+        <input type="text" name="item_visibility"><br><br>
+
+        <label>Item MRP:</label>
+        <input type="text" name="item_mrp"><br><br>
+
+        <label>Item Type:</label>
+        <select name="item_type">
+            <option value="Beverages">Beverages</option>
+            <option value="Snack Foods">Snack Foods</option>
+            <option value="Dairy">Dairy</option>
+            <option value="Frozen Foods">Frozen Foods</option>
+        </select><br><br>
+
+        <label>Outlet Type:</label>
+        <select name="outlet_type">
+            <option value="Supermarket Type1">Supermarket Type1</option>
+            <option value="Supermarket Type2">Supermarket Type2</option>
+            <option value="Grocery Store">Grocery Store</option>
+        </select><br><br>
+
+        <label>Outlet Location:</label>
+        <select name="outlet_location">
+            <option value="Tier 1">Tier 1</option>
+            <option value="Tier 2">Tier 2</option>
+            <option value="Tier 3">Tier 3</option>
+        </select><br><br>
+
+        <input type="submit" value="Predict Sales">
+    </form>
+</body>
+</html>
