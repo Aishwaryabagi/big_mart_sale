@@ -42,7 +42,7 @@ Setup & Installation
 
 Clone the repository:
 
-git clone /
+git clone https://github.com/Aishwaryabagi/big_mart_sale.git
 cd bigmart-sales-prediction
 
 
