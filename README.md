@@ -2,9 +2,6 @@ Big Mart Sales Prediction
 
 Predict product sales for Big Mart outlets using machine learning and interactively get predictions through a Flask web app.
 
-Live Demo: Try it on Render
- 🚀
-
 Project Overview
 
 This project builds an XGBoost regression model to predict sales for different products in Big Mart stores based on historical data.
